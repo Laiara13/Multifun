@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style6.css" rel="stylesheet">
+    <title>Multifunções</title>
+</head>
+<body>
+
+        
+    <header class="header">
+
+        <div id="logo">
+            <img src="./imagem/logo.png" alt="">
+        </div>
+        <h2 id="titulo">Multifunções</h2>
+
+
+
+  </header>
+    
+    <nav id="nav">
+        <ul class="cat"> </ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index1.html">Filmes</a></li>
+        <li><a href="./index3.html">Contatos</a></li>
+        <li><a href="./index6.html">Calculadora de EMC</a></li>
+    </nav>
+
+  
+    
+    <hr class="line">
+
+
+
+    
+    <form>
+        <input class="inputs" type="text" id="nome" placeholder="Insira seu nome">
+        <input class="inputs" type="date" id="dataNascimento" placeholder="Insira sua data de nascimento">
+        <input class="inputs" type="text" id="peso" placeholder="Insira seu peso">
+        <input class="inputs" type="text" id="altura" placeholder="Insira sua altura">
+        <div id="sexoEscolha">
+            <input type="radio" name="sexo" id="Masculino" class="sexo" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="sexo" id="Feminino" class="sexo" value="Feminino">
+            <label for="feminino">Feminino</label><br>
+        </div>
+        <input class="inputs" type="submit" id="button">
+
+    </form>
+
+    <table id="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Data de Nascimento</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Sexo</th>
+            <th>IMC</th>
+            <th>Condição</th>
+        </tr>
+        <tbody id="resultados">
+
+        </tbody>
+    </table>
+    
+</body>
+<script src="./javascript/script.js"></script>
+</html>
